@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import CounterPage from '../pages/CounterPage.vue';
 import LoginPage from '../pages/LoginPage.vue';
 
 const routes = [
@@ -10,6 +11,10 @@ const routes = [
   {
     path: '/login',
     component: LoginPage,
+  },
+  {
+    path: '/counter',
+    component: CounterPage,
   },
 ];
 
